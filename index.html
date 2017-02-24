@@ -1,45 +1,72 @@
-<!doctype html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>N.H.</title>
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta name="robots" content="all" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta http-equiv="imagetoolbar" content="false" />
+
+<html><head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Adam Sunshine</title>
+	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta name="robots" content="all">
+	<meta name="MSSmartTagsPreventParsing" content="true">
+	<meta http-equiv="imagetoolbar" content="false">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->	
+	<![endif]-->
 	<style>
 		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		body {
+			background-color: #333; margin-bottom: 50px;
+			font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		h2 { color: #666; font-size: 40px; font-weight: 200; }
+		p { color: #777; line-height: 24px; margin-bottom: 18px; -webkit-font-smoothing: antialiased; }
+		a { color: #666; font-weight: 600; text-decoration: none; padding-bottom: -1px !important; border-bottom: 1px solid #666; }
+		strong { font-weight: 600; }
+		a:hover { color: #222; border-bottom: 1px solid #000; }
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
+		#about { width: 400px; margin: 50px 50px 0 auto !important; background-color: #fff; opacity: 0.7; border: 0px solid black; border-radius: 25px; padding: 15px; }
+		.initials { opacity: 0.8; }
+		small { color: #fff; opacity: 0.7; font-size: 10px; -webkit-font-smoothing: antialiased; position: absolute; right: 20px; bottom: 20px; }
+		.photo { display: none; }
 		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
+			body { background-color: #efefef; }
+			p { color: #666;}
+			a { color: #333;}
+			h2 { color: #777; }
+			small { color: #888; }
+			img { max-width: 100%; }
+			.photo { display: inherit; margin: -20px -20px 20px -20px !important; }
+			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; background-color: none; }
+			.backstretch { opacity: 0.2; }
 		}
 	</style>
-</head>	
-    
-<body>
+</head>
 
-<!-- swap out for a logo -->
-<div id="monogram">
-	<img src="monogram.png" />
-</div>
+<body><div id="backstretch" style="left: 0px; top: 0px; position: fixed; overflow: hidden; z-index: -9999;"><img src="bg.jpg" style="position: relative; width: 1277px; height: 852px; left: 0px; top: -216px;"></div><div id="backstretch" style="left: 0px; top: 0px; position: fixed; overflow: hidden; z-index: -9999;"><img src="bg.jpg" style="position: relative; width: 1277px; height: 852px; left: 0px; top: -216px;"></div>
+
 
 <!-- swap out for information about yourself -->
 <div id="about">
-	<p>Naz Hamid is the founder and principal of <a href="http://weightshift.com">Weightshift</a>, a design studio in San Francisco and Chicago. Aside from client work, projects include the community-oriented site <a href="http://interhoods.org">Interhoods</a> and mobile web application, <a href="http://sitby.us">SitBy.Us</a>. The two projects codenamed <em>Suplex</em> and <em>Sleeperhold</em> are aiming to be launched in 2011.</p>
-	<p>He writes about design and tangential topics at <a href="http://weightshift.com/memo">Memo</a>, writes in 140 characters at <a href="http://twitter.com/weightshift">Twitter</a>, posts photos to <a href="http://flickr.com/absenter"/>Flickr</a>, creates 400x300px works-in-progress on <a href="http://dribbble.com/weightshift">Dribbble</a>, sometimes makes moving pictures on <a href="http://vimeo.com/weightshift">Vimeo</a>, records items of interest at <a href="http://svpply.com/weightshift">Svpply</a>, listens to all his music on <a href="http://www.rdio.com/people/weightshift/">Rdio</a> and answers the occasional question on <a href="http://www.quora.com/Naz-Hamid">Quora</a>. He also makes music as <a href="http://murdersandmysteries.com">Murders & Mysteries</a> and released an album in 2010.</p>
-	<p>A <a href="http://en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>, Naz has lived on three continents and in three countries. He currently lives in San Francisco, California, a place where he feels comfortable in his own skin.</p> 
+
+	<p class="photo">
+		<img src="solemn smile copy.jpg">
+	</p>
+
+	<h2>Hi, I'm Adam.</h2>
+	<p>I'm a software developer located in beautiful Boulder, CO. I specialize in full stack web development using Javascript, Ruby, HTML, CSS, and more.</p>
+
+	<p>Recently, I worked with <a href="http://xero.com">Xero</a> to design and develop an award-winning iOS app, called <a href="https://itunes.apple.com/us/app/xero-taxtouch/id1063928394?mt=8">TaxTouch</a> that helps freelancers and independents manage their expenses, and file their taxes. Apple featured it in the iTunes store. <a href="http://about.me">about.me</a> relaunched after several months of close collaboration with their team to reconceptualize and reinvigorate the site and product. You can read about it on <a href="http://www.theverge.com/2016/1/19/10777912/about-me-redesign-spotlight-button">The Verge</a>. The internal @gov team of long-standing client <a href="http://twitter.com">Twitter</a> looked to Weightshift again to design and develop custom applications for TV display to be used during election cycles.</p>
+
+	<p>I was fortunate to share printed space with some of the best designers in the business today, in <a href="http://subtraction.com">Khoi Vinh</a>'s book on how digital designers got their start, "How They Got There." <a href="http://howtheygotthere.com/">You can get it here</a>.</p>
+
+	<p>While not regular, I've spoken about design at Brooklyn Beta, Designer Fund's <em>Bridge</em> program, SXSW (multiple times), AIGA, and for Under Consideration.</p>
+
+	<p>Murders&amp;Mysteries is my long-time musical outlet. You can find the first release, <em>It's All In Our Histories</em> on the usual services: <a href="https://murdersandmysteries.bandcamp.com/album/its-all-in-our-histories">Bandcamp</a>, <a href="https://itunes.apple.com/us/album/its-all-in-our-histories/id585484257">iTunes</a>, <a href="https://itun.es/us/HFC5I">Apple Music</a>, <a href="https://open.spotify.com/album/4Y3uZOpDmwjjE3YEl5Tjt0">Spotify</a>, etc.</p>
+
+	<h2>Networks</h2>
+	<p>I do the <a href="http://twitter.com/adamsunshine3">Twitter</a> thing, the <a href="http://instagram.com/adamsunshine3">Instagram</a> thing, and have been writing at <a href="https://medium.com">Medium</a>. I'm also on that professional networking thing, <a href="https://www.linkedin.com/in/adamsunshine">LinkedIn</a>.</p>
+	<p></p>
+
 </div>
 
 <!--include jquery & backstretch-->
@@ -49,12 +76,12 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("nh_bg.jpg", {speed: 150});
+             $.backstretch("solemn smile copy.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
 });
 </script>
 
-</body>	
-</html>
+
+</body></html>
